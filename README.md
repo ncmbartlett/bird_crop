@@ -5,3 +5,6 @@ Simple script for cropping birds from images using OpenCV, re-purposed from http
 **Single image**; type into terminal: python bird_crop.py --i IMAGE_PATH
 
 **Multiple images**; type into terminal: for i in IMAGE_DIR/\*; do python bird_crop.py --i $i; done
+
+# Requirements
+opencv 3.4+, numpy
